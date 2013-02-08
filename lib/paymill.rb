@@ -14,6 +14,7 @@ module Paymill
   autoload :Refund,           'paymill/refund'
   autoload :Subscription,     'paymill/subscription'
   autoload :Transaction,      'paymill/transaction'
+  autoload :Webhook,          'paymill/webhook'
   
   autoload :Scope,            'paymill/support/scope'
   autoload :Request,          'paymill/support/request'
